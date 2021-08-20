@@ -1,0 +1,30 @@
+nav {
+    background: lightblue;
+}
+
+.navbar-item:not(:last-child) {
+    margin-right: 12px;
+}
+
+.navbar-link {
+    display: block;
+    text-decoration: none;
+}
+
+.hero_sec {
+    margin-top: 56px;
+}
+
+/******************** Scroll Back To Top button *******************/
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+
+    /* added */
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
